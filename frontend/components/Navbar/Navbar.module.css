@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: #1e1e1e;
+  color: white;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.middleBtns {
+  display: flex;
+  gap: 15px;
+}
+
+.rightBtns {
+  margin-left: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.assignmentsRemaining {
+  border-radius: 3px;
+  border: 1px solid white;
+  padding: 4px 10px;
+}
