@@ -1,5 +1,8 @@
+# main.py
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+
+from .routes.assessments import router as assessments_router
 
 app = FastAPI(title="Backend API")
 
@@ -11,6 +14,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+app.include_router(assessments_router)
+
 @app.get("/")
 def root():
-    return {"message": "Backend is running 🚀"}
+    return {"message": "Backend is runnssing 🚀"}
