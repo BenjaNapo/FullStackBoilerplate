@@ -4,3 +4,4 @@ sqlalchemy
 pydantic
 supabase
 python-dotenv
+resend
